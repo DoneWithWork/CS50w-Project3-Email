@@ -137,7 +137,7 @@ function compose_email() {
   document.querySelector("#emails-view").style.display = "none";
   document.querySelector("#compose-view").style.display = "block";
   document.getElementById("email-view").style.display = "none";
-
+  document.querySelector("#error-message").innerHTML = "";
   document.querySelector("#compose-recipients").value = "";
   document.querySelector("#compose-subject").value = "";
   document.querySelector("#compose-body").value = "";
