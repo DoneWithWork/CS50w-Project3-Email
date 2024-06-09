@@ -1,0 +1,30 @@
+textarea {
+  min-height: 400px;
+}
+.email {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+.email-button {
+  background-color: #24a0ed;
+  color: white;
+  font-weight: 600;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+.content {
+  margin: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.time {
+  color: rgb(131, 131, 131);
+  font-size: 15px;
+}
+.title {
+  font-weight: 600;
+  margin-right: 20px;
+}
